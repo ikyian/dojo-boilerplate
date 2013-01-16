@@ -1,0 +1,2 @@
+This folder is for keeping dojo archive src distributions.
+Download an archive from Dojo downloads and use script configure-dojo.sh to extract the content ant to put it into proper place of the project.
