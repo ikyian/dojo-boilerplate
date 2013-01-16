@@ -19,7 +19,7 @@ Quick Start
 
 0. Clone the repository using `git clone --recursive`.
 1. Download Dojo src archive from [Dojo downloads](http://dojotoolkit.org/download/) 
-   into /src-dojo folder.
+   into `/src-dojo` folder.
 2. Configure Dojo folders by running
 	`configure-dojo.sh dojo`
 3. run local webserver with script `/src/run-webserver.sh` (requires Python 
