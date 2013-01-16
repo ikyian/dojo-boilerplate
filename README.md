@@ -18,10 +18,17 @@ Quick Start
 -----------
 
 0. Clone the repository using `git clone --recursive`.
-1. Develop your project in `src/` until it is amazing.
-2. Run `build.sh`, which will create an awesome optimised build in `dist/`.
-3. Upload `dist/` for millions of people the world over to enjoy.
-4. Hapyness.
+1. Download Dojo src archive from [Dojo downloads](http://dojotoolkit.org/download/) 
+   into /src-dojo folder.
+2. Configure Dojo folders by running
+	configure-dojo.sh dojo
+3. run local webserver with script /src/run-webserver.sh (requires Python 
+   to be installed in the system). It makes avaialble all html files in src 
+   folder with URL http://localhost:8181/
+4. Develop your project in `src/` until it is amazing.
+5. Run `build.sh`, which will create an awesome optimised build in `dist/`.
+6. Upload `dist/` for millions of people the world over to enjoy.
+7. Hapyness.
 
 ### Windows Users
 
