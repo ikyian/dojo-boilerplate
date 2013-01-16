@@ -21,8 +21,8 @@ Quick Start
 1. Download Dojo src archive from [Dojo downloads](http://dojotoolkit.org/download/) 
    into /src-dojo folder.
 2. Configure Dojo folders by running
-	configure-dojo.sh dojo
-3. run local webserver with script /src/run-webserver.sh (requires Python 
+	`configure-dojo.sh dojo`
+3. run local webserver with script `/src/run-webserver.sh` (requires Python 
    to be installed in the system). It makes avaialble all html files in src 
    folder with URL http://localhost:8181/
 4. Develop your project in `src/` until it is amazing.
