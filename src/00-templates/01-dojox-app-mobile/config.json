@@ -1,0 +1,41 @@
+{
+	"id" : "{{app-name}}",
+	"name": "{{app-name}}",
+	"description": "{{app-name}} application",
+
+	"loaderConfig" : {
+		"paths": {
+			"app" : "../{{app-name}}"
+		}
+	},
+
+	"dependencies": [
+		"dojox/app/widgets/Container",
+		"dojox/mobile/EdgeToEdgeCategory",
+		"dojox/mobile/RoundRectList",
+		"dojox/mobile/ListItem",
+		"dojox/mobile/Heading"
+	],
+
+	"modules": [],
+
+	"controllers": [
+		"dojox/app/controllers/History"
+	],
+	
+	"definition": "none",
+	"defaultView": "home",
+	"defaultTransition": "slide",
+	"noAutoLoadControllers" : false, 
+	
+	"views": {
+		"home": {
+			"dependencies": [],
+			"template": "./templates/home.html",
+		},
+		"page": {
+			"dependencies": [],
+			"template": "./templates/page.html",
+		},
+	}
+}
